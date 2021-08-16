@@ -1,0 +1,187 @@
+.body {
+    font-size: 18px;
+}
+
+#header {
+    background-image: url("../images/bg-hero-desktop.svg");
+    background-color: hsl(193, 100%, 96%);
+    padding: 1%;
+}
+
+h1,
+h6 {
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    margin-bottom: 1.5rem;
+}
+
+h6 {
+    font-size: 2rem;
+}
+
+p {
+    font-family: "open sans";
+    font-weight: 400;
+    margin-bottom: 3rem;
+    color: hsl(208, 11%, 55%);
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: white;
+
+}
+
+li {
+    margin-bottom: 2.5rem;
+    list-style: none;
+}
+
+i {
+    color: white;
+    margin-right: 1rem;
+    margin-bottom: 10rem;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-radius: 50%;
+    padding: 0.3rem;
+}
+
+i:hover {
+    color: hsl(322, 100%, 66%);
+}
+
+
+/***********Header Section ***********/
+.btn-style {
+    background-color: white;
+    border-radius: 50rem;
+    font-family: "open sans";
+    font-weight: 400;
+    padding: 0.7% 5%;
+
+}
+
+.header-style {
+    margin: 0 1%;
+}
+
+.headerP-style {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.headerImg-style {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.get-startedBtn {
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 50rem;
+    font-family: "open sans";
+    font-weight: 400;
+    padding: 2% 7%;
+    color: white;
+    margin-bottom: 3rem;
+}
+
+.header-img {
+    width: 98%;
+    height: 100%;
+}
+
+/***********************************************************************************************************/
+#middle {
+    padding: 5rem 5rem 15rem;
+}
+
+.card {
+    margin-bottom: 2rem;
+}
+
+.middle-img {
+    padding: 1rem;
+    width: 95%;
+    height: 95%;
+}
+
+/*****************overlap*****************************/
+
+
+.overlap {
+   
+    text-align: center;
+    margin-bottom:-5.5rem;
+    padding: 3% 5%;
+    background-color: white;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgb(0 0 0 / 30%);
+    
+}
+
+/********************footer*****************************/
+
+#footer {
+    position: relative;
+    z-index: -1;
+    background-color: hsl(192, 100%, 9%);
+    padding: 10% 5% 3%;
+    text-align: left;
+}
+
+.white-logo {
+    filter: brightness(0) invert(1);
+    margin-bottom: 3rem;
+}
+
+.footer-p {
+    font-family: "open sans";
+    font-weight: 400;
+    margin-bottom: 3rem;
+    color: white;
+    margin-left: 2.7rem
+}
+
+.image-style {
+
+    margin-right: 20px;
+    float: left;
+}
+
+.copy-right {
+    font-size: 0.8rem;
+    font-family: "open sans";
+    font-weight: 400;
+    color: white;
+}
+
+.info-m {
+    margin-top: 5.5rem;
+}
+/************************mobile***********************************************/
+@media only screen and (max-width: 1000px){
+    .headerP-style,.icons{
+        text-align: center;
+    }
+ .overlap{
+     margin-bottom: -2rem;
+ }
+i{
+    margin-bottom: 2rem
+}
+ul{
+    margin-top: -5rem;
+    margin-left: -2.2rem;
+}
+}    
+
