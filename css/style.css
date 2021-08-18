@@ -1,3 +1,4 @@
+
 .body {
     font-size: 18px;
 }
@@ -196,7 +197,7 @@ justify-content: space-around;
 }
 
 /************************mobile***********************************************/
-@media only screen and (max-width: 770px) {
+/*@media only screen and (max-width: 770px) {
 
     .headerP-style,
     .icons {
@@ -242,3 +243,4 @@ justify-content: space-around;
     }
 
 }
+*/
