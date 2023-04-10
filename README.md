@@ -2,8 +2,6 @@
 
 ![Design preview for the Huddle landing page with alternating feature blocks coding challenge](./design/desktop-preview.jpg)
 
-## Welcome! 👋
-
 ## The challenge
 
 Build out this landing page and get it looking as close to the design as possible.
